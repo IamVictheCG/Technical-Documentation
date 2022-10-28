@@ -58,8 +58,46 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
 
             </p>
         </section>
-        <section class="main-section"></section>
-        <section class="main-section"></section>
+        <section class="main-section">
+            <h1>Variables</h1>
+            <p>
+                You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+                
+                A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+                
+                You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+        </section>
+        <section class="main-section">
+            <h1>Declaring variables</h1>
+            <p>
+                You can declare a variable in three ways:
+                With the keyword var. For example,
+                <div class="code-area">
+                    <p class="code">
+                       var x = 42.
+                    </p>
+                </div>
+                This syntax can be used to declare both local and global variables.
+                
+                By simply assigning it a value. For example,
+                <div class="code-area">
+                    <p class="code">
+                        x = 42.
+                    </p>
+                </div>
+                
+
+                This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+                
+                With the keyword let. For example,
+                <div class="code-area">
+                    <p class="code">
+                        let y = 13.
+                    </p>
+                </div>
+                
+                This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+        </section>
         <section class="main-section"></section>
         <section class="main-section"></section>
         <section class="main-section"></section>
