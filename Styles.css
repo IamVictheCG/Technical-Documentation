@@ -5,9 +5,23 @@ html {
 body {
     margin: 0;
     border: 2px solid red;
+
+}
+
+#nav-area {
+    border: #050381 2px solid;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    display: none;
 }
 
 #main-doc {
+    border: #73e705 2px solid;
     padding: 0 11.2px;
 }
 
