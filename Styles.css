@@ -17,14 +17,17 @@ border: 2px solid rgb(108, 23, 134);
 }
 
 .code-area {
-    display: flex;
-    align-content: center;
-    width: 100%;
+    margin: 9px auto;
+    /* display: flex;
+    align-content: center; */
+    width: 90%;
     height: fit-content;
     border-radius: 8px;
     padding: 0 0 15px 0;
+    border: 2px solid rgb(218, 16, 127);
     background-color: #3f463f;
 }
+
 
 .code {
     height: fit-content;
