@@ -40,6 +40,7 @@ li {
     margin-bottom: 8px;
 }
 
-.datalist1 li {
+.datalist1 .datalist2 {
+    color: blueviolet;
     margin-left: 10px;
 }
