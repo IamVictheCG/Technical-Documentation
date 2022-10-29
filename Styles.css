@@ -40,7 +40,8 @@ li {
     margin-bottom: 8px;
 }
 
-.datalist1 .datalist2 {
+.datalist2 {
     color: blueviolet;
-    margin-left: 10px;
+    margin-left: 40px;
+    list-style-type: circle;
 }
