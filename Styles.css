@@ -35,3 +35,11 @@ border: 2px solid rgb(108, 23, 134);
     color: beige;
     border: 2px solid rgb(163, 153, 9);
 }
+
+li {
+    margin-bottom: 8px;
+}
+
+.datalist1 li {
+    margin-left: 10px;
+}
