@@ -19,9 +19,9 @@
             <li><a href="#intro">Introduction</a></li>
             <li><a href="#javascript-and-java">JavaScript and Java</a></li>
             <li><a href="#hello-world">Hello world</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#Variables">Variables</a></li>
+            <li><a href="#Declaring-variables">Declaring variables</a></li>
+            <li><a href="#Variable-scope">Variable scope</a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
@@ -80,7 +80,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
         </section>
         <section class="main-section">
-            <h1>Variables</h1>
+            <h1 id="Variables">Variables</h1>
             <p>
                 You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
                 
@@ -89,7 +89,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
                 You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
         </section>
         <section class="main-section">
-            <h1>Declaring variables</h1>
+            <h1 id="Declaring-variables">Declaring variables</h1>
             <p>
                 You can declare a variable in three ways:
                 With the keyword var. For example,
@@ -120,7 +120,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
                 This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
         </section>
         <section class="main-section">
-            <h1>Variable scope</h1>
+            <h1 id="Variable-scope">Variable scope</h1>
             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function. <br>
             JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
             <div class="code-area">
@@ -139,14 +139,14 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
         </section>
 
         <section class="main-section">
-            <h1>Global variables</h1>
+            <h1 id="Global-variables">Global variables</h1>
             <p>
                 Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.
                 
                 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.</p>
         </section>
         <section class="main-section">
-            <h1>Constants</h1>
+            <h1 id="Constants">Constants</h1>
             <p>
                 You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
                 
@@ -182,7 +182,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
         </section>
 
         <section class="main-section">
-            <h1>Data types</h1>
+            <h1 id="Data-types">Data types</h1>
             <p>
                 The latest ECMAScript standard defines seven data types:
                 <ul>
@@ -200,7 +200,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
         </section>
         <section class="main-section">
-            <h1>if...else statement</h1>
+            <h1 id="if...else-statement">if...else statement</h1>
             <p>
                 Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
 
@@ -250,7 +250,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
             </p>
         </section>
         <section class="main-section">
-            <h1>while statement</h1>
+            <h1 id="while-statement">while statement</h1>
             <p>
                 A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
 
@@ -286,7 +286,7 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
         </section>
 
         <section class="main-section">
-            <h1>Function declarations</h1>
+            <h1 id="Function-declarations">Function declarations</h1>
             <p>
                 A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
                 <ul>
@@ -313,14 +313,12 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
                 </p>
         </section>
         <section class="main-section">
-            <h1>Reference</h1>
-            <p>
+            <h1 id="Reference">Reference</h1>
                 <ul>
                     <li>
                         All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a>
                     </li>
                 </ul>
-            </p>
         </section>
     </main>
 </body>
