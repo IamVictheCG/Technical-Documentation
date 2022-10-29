@@ -26,9 +26,16 @@ nav {
 
 
 #nav-list-js li {
-    /* list-style-type: none; */
-    border-top: 2px solid black;
+    list-style-type: none;
+    /* border-top: 2px solid black; */
     font-size: 24px;
+}
+
+.title {
+    list-style-type: none;
+    border: none !important;
+    text-align: center;
+    font-weight: 800;
 }
 
 #main-doc {
