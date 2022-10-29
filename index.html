@@ -10,42 +10,42 @@
 <body>
     <div id="nav-area">
         <nav>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <p><a href="#JavaScript">JavaScript</a></p>
+            <p><a href="">HTML</a></p>
+            <p><a href="">CSS</a></p>
         </nav>
 
         <ul class="nav-list">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#javascript-and-java">JavaScript and Java</a></li>
+            <li><a href="#hello-world">Hello world</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
         </ul>
     </div>
     <main id="main-doc">
-        <h1>JavaScript</h1>
+        <h1 id="JavaScript">JavaScript</h1>
         <section class="main-section">
-            <h1 class="intro">Introduction</h1>
-            <p>
-JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. <br>
-
-JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
-
-<ul>
-    <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li><br>
-    <li>
-        Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. 
-    </li>
-</ul>
+            <h1 id="intro">Introduction</h1>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. <br>
+            JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
+            <ul>
+                <li>
+                    Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+                </li><br>
+                <li>
+                    Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
+                </li>
+            </ul>
 
             </p>
         </section>
+
         <section class="main-section">
             <h1 id="What-you-should-already-know">What you should already know</h1>
             <p>
@@ -69,7 +69,7 @@ JavaScript contains a standard library of objects, such as Array, Date, and Math
         </section>
         <section class="main-section">
             <p>
-                <h2 id="hello-world">Hello world</h2>
+                <h1 id="hello-world">Hello world</h1>
 To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
 <div class="code-area">
     <p class="code">function greetMe(yourName) { alert("Hello " + yourName); }<br>
@@ -121,26 +121,23 @@ Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
         </section>
         <section class="main-section">
             <h1>Variable scope</h1>
-            <p>
-When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.
-
-JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
-
-<div class="code-area">
-    <p class="code">
-        if (true) { var x = 5; } console.log(x); // 5
-    </p>
-</div>
-This behavior changes, when using the let declaration introduced in ECMAScript 2015.
-
-<div class="code-area">
-    <p class="code">
-        if (true) { let y = 5; } console.log(y); // ReferenceError: y is <br>
-        not defined
-    </p>
-</div>
-            </p>
+            <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function. <br>
+            JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.
+            <div class="code-area">
+                <p class="code">
+                    if (true) { var x = 5; } console.log(x); // 5
+                </p>
+            </div>
+            This behavior changes, when using the let declaration introduced in ECMAScript 2015.
+            <div class="code-area">
+                <p class="code">
+                    if (true) { let y = 5; } console.log(y); // ReferenceError: y is <br>
+                    not defined
+                </p>
+            </div>
+        </p>
         </section>
+
         <section class="main-section">
             <h1>Global variables</h1>
             <p>
