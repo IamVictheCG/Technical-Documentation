@@ -234,26 +234,76 @@ This behavior changes, when using the let declaration introduced in ECMAScript 2
         <section class="main-section">
             <h1>while statement</h1>
             <p>
-A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
-while (condition) statement
-If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
-The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.
+                A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
 
-To execute multiple statements, use a block statement ({ ... }) to group those statements.
+                <div class="code-area">
+                    <p class="code">
+                        while (condition) statement
+                    </p>
+                </div>
+                
+                If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+                The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.
 
-Example:
-The following while loop iterates as long as n is less than three:
+                To execute multiple statements, use a block statement ({ ... }) to group those statements.
 
-var n = 0; var x = 0; while (n < 3) { n++; x += n; }
-With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:
+                Example:
+                The following while loop iterates as long as n is less than three:
 
-After the first pass: n = 1 and x = 1
-After the second pass: n = 2 and x = 3
-After the third pass: n = 3 and x = 6
-After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.
+                <div class="code-area">
+                    <p class="code">
+                        var n = 0; var x = 0; while (n &lt 3) { n++; x += n; }
+                    </p>
+                </div>
+                
+                With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:
+
+                <ul>
+                    <li>After the first pass: n = 1 and x = 1</li>
+                    <li>After the second pass: n = 2 and x = 3</li>
+                    <li>After the third pass: n = 3 and x = 6</li>
+                </ul>
+                After completing the third pass, the condition n &lt 3 is no longer true, so the loop terminates.
             </p>
         </section>
-        <section class="main-section"></section>
+
+        <section class="main-section">
+            <h1>Function declarations</h1>
+            <p>
+                A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+                <ul>
+                    <li>The name of the function.</li>
+                    <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+                    <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
+                </ul>
+                For example, the following code defines a simple function named square:
+                
+                <div class="code-area">
+                    <p class="code">
+                        function square(number) { return number * number; }
+                    </p>
+                </div>
+                The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+                
+                <div class="code-area">
+                    <p class="code">
+                        return number * number;
+                    </p>
+                </div>
+                Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
+                
+                </p>
+        </section>
+        <section class="main-section">
+            <h1>Reference</h1>
+            <p>
+                <ul>
+                    <li>
+                        All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a>
+                    </li>
+                </ul>
+            </p>
+        </section>
     </main>
 </body>
 </html>
