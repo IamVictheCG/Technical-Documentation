@@ -23,6 +23,16 @@ nav {
     border-bottom: double;
 }
 
+.nav-list {
+    /* list-style-type: none; */
+    /* border-top: 2px solid black; */
+}
+
+.nav-list li {
+    /* list-style-type: none; */
+    border-top: 2px solid black;
+}
+
 #main-doc {
     border: #73e705 2px solid;
     padding: 0 11.2px;
