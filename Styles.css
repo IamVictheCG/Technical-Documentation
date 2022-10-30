@@ -9,7 +9,7 @@ body {
 }
 
 #nav-area {
-    border: #d1fc12 2px solid;
+    /* border: #d1fc12 2px solid;    */
     height: 100vh;
     width: 20%;
     position: fixed;
@@ -27,12 +27,12 @@ nav {
 }
 
 #nav-list-js {
-    margin-top: 0;
-    height: 92vh;
+    margin-top: 4%;
+    height: 88.6vh;
+    max-height: 90vh;
     border: #4a0569 2px solid;
     padding-left: 0;
-    overflow: hidden;
-    overflow: scroll;
+    overflow: auto;
 }
 
 #nav-list-js li {
