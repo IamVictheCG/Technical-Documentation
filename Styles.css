@@ -94,3 +94,26 @@ li {
 /* section {
     width: 1050px;
 } */
+
+@media (max-width: 720px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100%;
+        border: 11px solid red;
+    }
+
+    #main-doc {
+        border: #73e705 2px solid;
+        padding: 0 11.2px;
+        width: 77.8%;
+        position: relative;
+        left: 20.4%;
+    }
+
+    #nav-list-js {
+        display: none;
+    }
+}
