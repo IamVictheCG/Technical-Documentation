@@ -103,6 +103,7 @@ li {
     body {
         width: 100%;
         border: 11px solid red;
+        margin: 0;
     }
 
     #main-doc {
