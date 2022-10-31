@@ -102,19 +102,24 @@ li {
     
     body {
         width: 100%;
-        border: 11px solid red;
+        border: 1px solid red;
         margin: 0;
+        padding: 0;
     }
 
     #main-doc {
         margin: 0;
         border: #73e705 2px solid;
         padding: 0 11.2px;
-        width: 100%;
-        margin-top: 53.7px;
+        width: 50%;
     }
 
     #nav-area {
+        width: 100%;
+        display: none;
+    }
+
+    nav {
         width: 100%;
     }
 
