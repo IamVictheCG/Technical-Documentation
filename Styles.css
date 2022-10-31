@@ -152,3 +152,8 @@ li {
     font-weight: 800;
     border-radius: 10px;
 }
+
+.main-section header {
+    font-size: 28px;
+    font-weight: 800;
+}
