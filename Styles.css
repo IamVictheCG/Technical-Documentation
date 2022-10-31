@@ -109,9 +109,11 @@ li {
     #main-doc {
         border: #73e705 2px solid;
         padding: 0 11.2px;
-        width: 77.8%;
-        position: relative;
-        left: 20.4%;
+        width: 100%;
+    }
+
+    #nav-area {
+        width: 100%;
     }
 
     #nav-list-js {
