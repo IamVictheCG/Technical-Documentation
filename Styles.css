@@ -16,7 +16,7 @@ body {
     position: fixed;
 }
 
-nav {
+nav header {
     background-color: aquamarine;
     height: 8%;
     display: flex;
