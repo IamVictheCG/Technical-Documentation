@@ -48,6 +48,11 @@ nav p {
     font-size: 24px;
 }
 
+#nav-list-js li a {
+    text-decoration: none;
+
+}
+
 .title {
     list-style-type: none;
     border: none !important;
