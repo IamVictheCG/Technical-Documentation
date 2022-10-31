@@ -95,12 +95,15 @@ li {
     width: 1050px;
 } */
 
-@media (max-width: 720px) {
+@media (min-width: 400px) and (max-width: 720px) {
     html {
         box-sizing: border-box;
+        background-color: #fffd22;
+        
     }
     
     body {
+        background-color: #0d1b9c;
         width: 100%;
         border: 1px solid red;
         margin: 0;
