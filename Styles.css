@@ -9,14 +9,14 @@ body {
 
 }
 
-#nav-area {
+#navbar {
     /* border: #d1fc12 2px solid;    */
     height: 100vh;
     width: 20%;
     position: fixed;
 }
 
-nav header {
+#nav-area header {
     background-color: aquamarine;
     height: 8%;
     display: flex;
@@ -28,7 +28,7 @@ nav header {
     margin-bottom: 0;
 }
 
-nav p {
+#nav-area p {
     font-weight: bold;
 }
 
