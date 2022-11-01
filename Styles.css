@@ -109,7 +109,7 @@ li {
     width: 1050px;
 } */
 
-@media (min-width: 400px) and (max-width: 720px) {
+@media (min-width: 400px) and (max-width: 520px) {
     html {
         box-sizing: border-box;
         margin: 0;
