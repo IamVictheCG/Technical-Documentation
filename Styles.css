@@ -63,6 +63,10 @@ body {
     /* color: #73e705; */
 }
 
+#JavaScript-title{
+    text-align: center;
+}
+
 #main-doc {
     border: #73e705 2px solid;
     padding: 0 0px;
