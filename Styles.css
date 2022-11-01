@@ -6,6 +6,7 @@ body {
     margin: 0;
     /* border: 2px solid red; */
     background-color: aqua;
+    padding: 0;
 
 }
 
@@ -54,18 +55,21 @@ body {
 }
 
 .title {
+    text-align: center;
     list-style-type: none;
     border: none !important;
     text-align: center;
     font-weight: 800;
+    /* color: #73e705; */
 }
 
 #main-doc {
-    /* border: #73e705 2px solid; */
+    border: #73e705 2px solid;
     padding: 0 0px;
-    width: 77.8%;
+    width: 79.8%;
     position: relative;
-    left: 20.4%;
+    left: 19.9%;
+    overflow: hidden;
 }
 
 .main-section {
@@ -107,7 +111,7 @@ li {
 
 .copyright {
     background-color: #3f463f;
-    width: 100% !important;
+    width: 100vw !important;
     position: sticky;
     bottom: 0;
     text-align: center;
@@ -130,21 +134,11 @@ li {
     body {
         margin: 0;
         width: fit-content;
-        border: 2px solid skyblue;
+        border: 2px solid rgb(17, 204, 95);
     }
 
     nav {
-        border: none;
-    }
-    #nav-area {
-        margin-left: 0px;
-    }
-
-    #main-doc{
-        border: #3f463f 2px solid;
-        margin-left: -96px;
-        margin-top: 50px;
-        width: 100vw;
+        display: none;
     }
     #nav-list-js {
         display: none;
