@@ -232,6 +232,7 @@ li {
     }
 
     .warning {
+        margin: auto;
         color: white;
         border-radius: 9px;
         width: calc(100% - 20px);
