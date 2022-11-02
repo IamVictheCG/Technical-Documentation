@@ -230,4 +230,14 @@ li {
         display: block;
         width: 100% !important;
     }
+
+    .warning {
+        color: white;
+        border-radius: 9px;
+        width: calc(100% - 20px);
+        padding: 12px 0;
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(168, 13, 13);
+    }
 }
