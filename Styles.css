@@ -60,7 +60,6 @@ body {
 
 #main-doc {
   margin: 0;
-  border: #73e705 2px solid;
   padding: 0 0px;
   width: 78%;
   position: absolute;
@@ -73,6 +72,7 @@ body {
 #main-doc header {
   font-size: 30px;
   font-weight: 400;
+  text-decoration: underline;
 }
 #main-doc .code-area {
   margin: 29px auto;
@@ -103,4 +103,25 @@ body {
 }
 #main-doc #JavaScript-title {
   text-align: center;
+}
+#main-doc .warning {
+  color: rgb(243, 134, 134);
+  border-radius: 9px;
+  width: calc(100% - 20px);
+  padding: 12px 0;
+  text-align: center;
+  font-size: larger;
+  background-color: #463f3f;
+}
+
+.copy {
+  margin-bottom: 0;
+  background-color: #3f463f;
+  z-index: 22;
+  width: 80% !important;
+  position: fixed;
+  left: 20%;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=Styles.css.map */
