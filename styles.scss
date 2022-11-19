@@ -1,0 +1,300 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding-top: 2px;
+    margin: 0;
+    /* border: 2px solid red; */
+    background-color: rgb(14, 105, 105);
+    color: rgb(169, 185, 226);
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgb(13, 211, 211);
+    // border: #d1fc12 2px solid;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+
+    a {
+        color: rgb(44, 77, 160);
+        font-size: large;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+
+#nav-list-js {
+    // background-color: aquamarine;
+    background-color: rgb(11, 134, 134);
+    // border: #0509e7 2px solid;
+    // border-bottom: double;
+    width: 20%;
+    height: 88.5vh;
+    max-height: 90vh;
+    overflow: auto;
+    overflow-x: hidden;
+    list-style-type: none;
+    padding-left: 0%;
+    position: fixed;
+    top: 8%;
+    
+    li {
+        font-size: 24px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(69, 211, 211);
+
+    }
+    
+    a:hover {
+        color: #fff;
+        font-style: oblique;
+    }
+
+    .title {
+        text-align: center;
+        list-style-type: none;
+        border: none !important;
+        text-align: center;
+        font-weight: 800;
+        /* color: #73e705; */
+    }
+}
+
+#main-doc {
+    // display: none;
+    margin: 0;
+    border: #73e705 2px solid;
+    padding: 0 0px;
+    width: 78%;
+    position: absolute;
+    left: 21.6%;
+    
+    .main-section {
+        margin: 12px 16.2px;
+        /* border: 2px solid rgb(108, 23, 134); */
+    }
+    
+    header {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .code-area {
+        margin: 29px auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        border-radius: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        /* border: 2px solid rgb(218, 16, 127); */
+        background-color: #3f463f;
+    }
+
+    .code {
+        margin-left: 30px;
+        margin-right: 30px;
+        height: fit-content;
+        width: 90%;
+        /* margin: 0 0 0 15px; */
+        color: beige;
+        /* border: 2px solid rgb(9, 106, 163); */
+    }
+}
+
+// // // #nav-area {
+// // //     height: 8%;
+// // //     /* display: none; */
+// // //     
+// // //     /* border: #fc1287 2px solid; */
+// // //     margin-bottom: 0;
+// // // }
+
+// // #nav-area p {
+// //     font-weight: bold;
+// // }
+
+// // #nav-list-js {
+// //     background-color: rgb(7, 80, 95);
+// //     margin-top: 3%;
+// //     height: 89.9%;
+// //     max-height: 90vh;
+// //     /* border: #4a0569 2px solid; */
+// //     padding-left: 0;
+// //     overflow: auto;
+// // }
+
+// // #nav-list-js li {
+// //     list-style-type: none;
+// //     /* border-top: 2px solid black; */
+// //     font-size: 24px;
+// // }
+
+// // #nav-list-js li a {
+// //     text-decoration: none;
+// //     color: rgb(69, 211, 211);
+// // }
+
+// // #nav-list-js li a:hover {
+// //     color: #fff;
+// //     font-style: oblique;
+// // }
+
+
+
+// #JavaScript-title{
+//     /* background-color: #0514e7; */
+//     text-align: center;
+// }
+
+
+
+
+
+
+
+// li {
+//     margin-bottom: 8px;
+// }
+
+// .datalist2 {
+//     color: rgb(91, 128, 223);
+//     margin-left: 40px;
+//     list-style-type: circle;
+// }
+
+// .copy {
+//     margin-bottom: 0;
+//     background-color: #3f463f;
+//     width: 100% !important;
+//     position: sticky;
+//     bottom: 0;
+//     text-align: center;
+//     color: #fff;
+// }
+
+// .warning {
+//     color: rgb(243, 134, 134);
+//     border-radius: 9px;
+//     width: calc(100% - 20px);
+//     padding: 12px 0;
+//     text-align: center;
+//     font-size: larger;
+//     background-color: #463f3f;
+// }
+
+// /* section {
+//     width: 1050px;
+// } */
+
+
+// @media (max-width: 900px) {
+//     body {
+//         display: flex;
+//         /* justify-content: center; */
+//         flex-direction: column;
+//         /* border: #0514e7 2px solid; */
+//         width: 100% !important;
+//         margin: 0;
+//     }
+
+//     #navbar {
+//         /* border: #3f463f 2px solid; */
+//         border: none ;
+//         position: inherit;
+//         width: 100% !important;
+//         height: auto;
+//         /* z-index: 55; */
+
+//         #nav-list-js {
+//             display: none;
+//         }
+
+//         .display-js {
+//             display: block
+//         }
+//     };
+
+
+
+//     li.title {
+//         color: aqua;
+//     }
+
+
+//     /* #navbar #nav-area p :hover {
+//         color: #d1fc12;
+//         display: block;
+//     } */
+
+
+//     /* #nav-area header {
+//         margin: 3px auto;
+//         border: none !important;
+//         width: 98%;
+//     } */
+
+//     .main-section {
+//         width: initial !important;
+//         /* border: #e705e7 1px solid; */
+//         /* margin: 4px 10px; */
+//         word-wrap: break-word;
+//     }
+
+//     .code-area {
+//         width: 80%;
+//         margin-right: 15%;
+//     }
+    
+//     #main-doc {
+//         /* border: #90e705 1px solid !important; */
+//         /* margin: 0 5px; */
+//         display: flex;
+//         flex-direction: column;
+//         margin: 0;
+//         position: inherit !important;
+//         left: 0;
+//         width: 100%;
+//     }
+
+//     /* #nav-area header {
+//         height: fit-content;
+//         width: 40px;
+//         display: block;
+//     } */
+
+
+//     #JavaScript-title{
+//         /* background-color: aqua; */
+//         text-align: center;
+//         width: initial;
+//     }
+
+//     .copy {
+//         display: block;
+//         width: auto !important;
+//         margin: 0;
+//     }
+
+//     .warning {
+//         margin: auto;
+//         color: rgb(243, 134, 134);
+//         border-radius: 9px;
+//         width: calc(100% - 20px);
+//         padding: 12px 0;
+//         text-align: center;
+//         font-size: larger;
+//         background-color: #463f3f;
+//     }
+// }
