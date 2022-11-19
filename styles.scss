@@ -118,6 +118,12 @@ body {
         text-align: center;
     }
 
+    .datalist2 {
+        color: rgb(230, 232, 236);
+        margin-left: 40px;
+        list-style-type: circle;
+    }
+
     .warning {
         color: rgb(243, 134, 134);
         border-radius: 9px;
@@ -141,68 +147,7 @@ body {
     color: #fff;
 }
 
-// // // #nav-area {
-// // //     height: 8%;
-// // //     /* display: none; */
-// // //     
-// // //     /* border: #fc1287 2px solid; */
-// // //     margin-bottom: 0;
-// // // }
-
-// // #nav-area p {
-// //     font-weight: bold;
-// // }
-
-// // #nav-list-js {
-// //     background-color: rgb(7, 80, 95);
-// //     margin-top: 3%;
-// //     height: 89.9%;
-// //     max-height: 90vh;
-// //     /* border: #4a0569 2px solid; */
-// //     padding-left: 0;
-// //     overflow: auto;
-// // }
-
-// // #nav-list-js li {
-// //     list-style-type: none;
-// //     /* border-top: 2px solid black; */
-// //     font-size: 24px;
-// // }
-
-// // #nav-list-js li a {
-// //     text-decoration: none;
-// //     color: rgb(69, 211, 211);
-// // }
-
-// // #nav-list-js li a:hover {
-// //     color: #fff;
-// //     font-style: oblique;
-// // }
-
-
-
-
-
-
-
-
-
-
-
-// li {
-//     margin-bottom: 8px;
-// }
-
-// .datalist2 {
-//     color: rgb(91, 128, 223);
-//     margin-left: 40px;
-//     list-style-type: circle;
-// }
-
-
-
-
-// @media (max-width: 900px) {
+@media (max-width: 900px) {
 //     body {
 //         display: flex;
 //         /* justify-content: center; */
@@ -212,13 +157,18 @@ body {
 //         margin: 0;
 //     }
 
-//     #navbar {
-//         /* border: #3f463f 2px solid; */
+    #navbar {
+        width: 100%;
+        position: initial; 
+        //         /* border: #3f463f 2px solid; */
+    }
+
+    
 //         border: none ;
 //         position: inherit;
 //         width: 100% !important;
 //         height: auto;
-//         /* z-index: 55; */
+        /* z-index: 55; */
 
 //         #nav-list-js {
 //             display: none;
@@ -227,7 +177,7 @@ body {
 //         .display-js {
 //             display: block
 //         }
-//     };
+    // };
 
 
 
@@ -300,4 +250,4 @@ body {
 //         font-size: larger;
 //         background-color: #463f3f;
 //     }
-// }
+}

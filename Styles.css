@@ -104,6 +104,11 @@ body {
 #main-doc #JavaScript-title {
   text-align: center;
 }
+#main-doc .datalist2 {
+  color: rgb(230, 232, 236);
+  margin-left: 40px;
+  list-style-type: circle;
+}
 #main-doc .warning {
   color: rgb(243, 134, 134);
   border-radius: 9px;
@@ -124,4 +129,12 @@ body {
   bottom: 0;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 900px) {
+  #navbar {
+    width: 100%;
+    position: initial;
+  }
+  /* z-index: 55; */
 }/*# sourceMappingURL=Styles.css.map */
