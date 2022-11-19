@@ -1,8 +1,17 @@
-var jsDis = document.querySelector("#js_Nav");
+let html = document.getElementById("html_nav-list")
+let css = document.getElementById("css_nav-list")
+let js = document.getElementById("js_Nav")
 
-jsDis.addEventListener("mouseenter", function jsDisplay(e) {
-    if (e.target.id === "nav-list-js") {
-        e.target.classList.toggle("display-js")
-    }
-    return jsDisplay()
-})
+
+
+
+js.addEventListener("click", jsnav())
+
+function jsnav() {
+    let jsNav = document.getElementById("js_nav-list")
+    jsNav.classList.toggle("js_nav-list1")
+    // if (jsNav.classList === "js_nav-list") {
+    //    jsNav.classList = "js_nav-list1"        
+    // }
+}
+jsnav()
