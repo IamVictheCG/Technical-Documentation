@@ -1,6 +1,5 @@
 let html = document.getElementById("html_nav-list")
 let css = document.getElementById("css_nav-list")
-let js = document.getElementById("js_Nav")
 
 
 
@@ -8,10 +7,10 @@ let js = document.getElementById("js_Nav")
 js.addEventListener("click", jsnav())
 
 function jsnav() {
-    let jsNav = document.getElementById("js_nav-list")
-    jsNav.classList.toggle("js_nav-list1")
-    // if (jsNav.classList === "js_nav-list") {
-    //    jsNav.classList = "js_nav-list1"        
-    // }
+    let js = document.getElementsByClassName("js_nav")
+    // jsNav.classList.toggle("js_nav-list1")
+    if (i = 0, i<js.length, i++) {       
+        js[i].classList.toggle === "js_nav-list1"
+    }
 }
 jsnav()
