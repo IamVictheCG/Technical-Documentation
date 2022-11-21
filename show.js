@@ -7,7 +7,7 @@ let jsNav = document.querySelector(".js_nav-list")
 
 js.addEventListener("click", function jsNav1(e) {
     if (e.target.tagName === "P") {
-        e.target.classList.toggle('js_nav-list1')
+        e.target.classList.toggle('navList_js')
     }
     
     // jsNav.classList.toggle("jsNav_nav-list1")

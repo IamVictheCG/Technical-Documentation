@@ -19,10 +19,13 @@ body {
   justify-content: space-around;
   position: fixed;
 }
-#navbar a {
+#navbar p {
   color: rgb(44, 77, 160);
   font-size: large;
   font-weight: 600;
+  text-decoration: none;
+}
+#navbar a {
   text-decoration: none;
 }
 
@@ -159,14 +162,14 @@ body {
   }
   body #navList {
     position: fixed;
-    display: block;
+    display: none;
     justify-content: space-around;
     background: rgb(218, 218, 12);
     width: 80%;
     height: 47%;
   }
   body #navList .js_nav-list {
-    display: block;
+    display: none;
   }
   body #navList .html_nav-list {
     display: none;
@@ -174,7 +177,7 @@ body {
   body #navList .css_nav-list {
     display: none;
   }
-  body #navList_js {
+  body .navList_js {
     background-color: rgb(17, 111, 128);
     display: block;
     position: fixed;
@@ -186,23 +189,23 @@ body {
     z-index: 2222;
     border: #fff 2px solid;
   }
-  body #navList_js .js_nav-list {
+  body .navList_js li {
     display: block;
   }
-  body #navList_js li {
-    display: block;
-  }
-  body #navList_js li:hover {
+  body .navList_js li:hover {
     background-color: #463f3f;
     border: #fff 2px solid;
   }
-  body #navList_js .title {
+  body .navList_js .title {
     display: none;
   }
-  body #navList_js hr {
+  body .navList_js hr {
     display: none;
   }
-  body #navList_html {
+  body .navList_js .js_nav-list {
+    display: block;
+  }
+  body .navList_html {
     background-color: rgb(17, 111, 128);
     position: fixed;
     display: block;
@@ -212,58 +215,58 @@ body {
     top: 8.4%;
     left: 30%;
   }
-  body #navList_html .js_nav-list {
+  body .navList_html .js_nav-list {
     display: none;
   }
-  body #navList_html .html_nav-list {
+  body .navList_html .html_nav-list {
     display: block;
   }
-  body #navList_html .css_nav-list {
+  body .navList_html .css_nav-list {
     display: none;
   }
-  body #navList_html li {
+  body .navList_html li {
     display: block;
   }
-  body #navList_html li:hover {
+  body .navList_html li:hover {
     background-color: #463f3f;
     border: #fff 2px solid;
   }
-  body #navList_html .title {
+  body .navList_html .title {
     display: none;
   }
-  body #navList_html hr {
+  body .navList_html hr {
     display: none;
   }
-  body #navList {
-    position: absolute;
+  body .navList_css {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     background-color: rgb(17, 111, 128);
-    width: 49%;
+    width: 40%;
     height: 49%;
     top: 8.4%;
-    left: 50%;
+    left: 58%;
   }
-  body #navList .js_nav-list {
+  body .navList_css .js_nav-list {
     display: none;
   }
-  body #navList .html_nav-list {
+  body .navList_css .html_nav-list {
     display: none;
   }
-  body #navList .css_nav-list {
+  body .navList_css .css_nav-list {
     display: block;
   }
-  body #navList li {
+  body .navList_css li {
     display: block;
   }
-  body #navList li:hover {
+  body .navList_css li:hover {
     background-color: #463f3f;
     border: #fff 2px solid;
   }
-  body #navList .title {
+  body .navList_css .title {
     display: none;
   }
-  body #navList hr {
+  body .navList_css hr {
     display: none;
   }
   body .js_nav-list1 {

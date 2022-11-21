@@ -20,10 +20,13 @@ body {
     justify-content: space-around;
     position: fixed;
 
-    a {
+    p {
         color: rgb(44, 77, 160);
         font-size: large;
         font-weight: 600;
+        text-decoration: none;
+    }
+    a{
         text-decoration: none;
     }
 }
@@ -180,14 +183,14 @@ body {
 
         #navList {
             position: fixed;
-            display: block;
+            display: none;
             justify-content: space-around;
             background: rgb(218, 218, 12);
             width: 80%;
             height: 47%;
 
             .js_nav-list {
-                display: block;
+                display: none;
             }
             .html_nav-list {
                 display: none;
@@ -198,7 +201,7 @@ body {
         }
 
 //---------------------------------------------------------
-        #navList_js {
+        .navList_js {
             background-color: rgb(17, 111, 128);
             display: block;
             position: fixed;
@@ -209,10 +212,6 @@ body {
             overflow-y: scroll;
             z-index: 2222;
             border: #fff 2px solid;
-
-            .js_nav-list {
-                display: block;
-            }
 
             li {
                 display: block;
@@ -230,9 +229,13 @@ body {
                 display: none;
             }
 
+            .js_nav-list {
+                display: block;
+            }
+
         }
         
-        #navList_html {
+        .navList_html {
             background-color: rgb(17, 111, 128);
             position: fixed;
             display: block;
@@ -268,15 +271,15 @@ body {
                 display: none;
             }
         }
-        #navList {
-            position: absolute;
+        .navList_css {
+            position: fixed;
             display: flex;
             justify-content: space-around;
             background-color: rgb(17, 111, 128);
-            width: 49%;
+            width: 40%;
             height: 49%;
             top: 8.4%;
-            left: 50%;
+            left: 58%;
 
             .js_nav-list {
                 display: none;
