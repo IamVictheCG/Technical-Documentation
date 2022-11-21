@@ -198,7 +198,7 @@ body {
         }
 
 //---------------------------------------------------------
-        #navList {
+        #navList_js {
             background-color: rgb(17, 111, 128);
             display: block;
             position: fixed;
@@ -231,21 +231,78 @@ body {
             }
 
         }
+        
         #navList_html {
-            position: absolute;
-            display: flex;
+            background-color: rgb(17, 111, 128);
+            position: fixed;
+            display: block;
             justify-content: space-around;
-            background: rgb(218, 218, 12);
-            width: 30%;
-            height: 47%;
+            width: 49%;
+            height: 49%;
+            top: 8.4%;
+            left: 30%;
+
+            .js_nav-list {
+                display: none;
+            }
+            .html_nav-list {
+                display: block;
+            }
+            .css_nav-list {
+                display: none;
+            }
+
+            li {
+                display: block;
+            }
+
+            li:hover{
+                background-color: #463f3f;
+                border: #fff 2px solid;
+            }
+
+            .title {
+                display: none;
+            }
+            hr {
+                display: none;
+            }
         }
-        #navList_css {
+        #navList {
             position: absolute;
             display: flex;
             justify-content: space-around;
-            background: rgb(218, 218, 12);
-            width: 30%;
-            height: 47%;
+            background-color: rgb(17, 111, 128);
+            width: 49%;
+            height: 49%;
+            top: 8.4%;
+            left: 50%;
+
+            .js_nav-list {
+                display: none;
+            }
+            .html_nav-list {
+                display: none;
+            }
+            .css_nav-list {
+                display: block;
+            }
+
+            li {
+                display: block;
+            }
+
+            li:hover{
+                background-color: #463f3f;
+                border: #fff 2px solid;
+            }
+
+            .title {
+                display: none;
+            }
+            hr {
+                display: none;
+            }
         }
 
 
