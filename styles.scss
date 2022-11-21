@@ -202,7 +202,7 @@ body {
 
 //---------------------------------------------------------
         .navList_js {
-            background-color: rgb(17, 111, 128);
+            background-color: rgb(25, 206, 238);
             display: block;
             position: fixed;
             top: 8.4%;
@@ -215,6 +215,7 @@ body {
 
             li {
                 display: block;
+                // color: aliceblue;
             }
 
             li:hover{
@@ -223,7 +224,7 @@ body {
             }
 
             .title {
-                display: none;
+                display: block;
             }
             hr {
                 display: none;
