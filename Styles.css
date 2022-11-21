@@ -147,33 +147,89 @@ body {
   color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 500px) {
+  body {
+    width: 100%;
+  }
   body #navbar {
     width: 100%;
-    position: initial;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
   body #navList {
+    position: fixed;
+    display: block;
+    justify-content: space-around;
+    background: rgb(218, 218, 12);
+    width: 80%;
+    height: 47%;
+  }
+  body #navList .js_nav-list {
+    display: block;
+  }
+  body #navList .html_nav-list {
+    display: none;
+  }
+  body #navList .css_nav-list {
+    display: none;
+  }
+  body #navList {
+    background-color: rgb(17, 111, 128);
+    display: block;
+    position: fixed;
+    top: 8.4%;
+    left: 4%;
+    width: 49%;
+    height: 49%;
+    overflow-y: scroll;
+    z-index: 2222;
+    border: #fff 2px solid;
+  }
+  body #navList .js_nav-list {
+    display: block;
+  }
+  body #navList li {
+    display: block;
+  }
+  body #navList li:hover {
+    background-color: #463f3f;
+    border: #fff 2px solid;
+  }
+  body #navList .title {
+    display: none;
+  }
+  body #navList hr {
+    display: none;
+  }
+  body #navList_html {
     position: absolute;
-    background: rgba(245, 245, 220, 0.916);
-    width: 100%;
-    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(218, 218, 12);
+    width: 30%;
+    height: 47%;
   }
-  body .js_nav-list {
-    display: none;
-  }
-  body .html_nav-list {
-    display: none;
-  }
-  body .css_nav-list {
-    display: none;
+  body #navList_css {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(218, 218, 12);
+    width: 30%;
+    height: 47%;
   }
   body .js_nav-list1 {
-    background-color: rgba(17, 111, 128, 0.822);
-    position: absolute;
+    background-color: rgb(17, 111, 128);
+    display: block;
+    position: fixed;
     left: 30px;
     width: 150px;
     height: 250px;
     overflow-y: scroll;
+    z-index: 2222;
+  }
+  body .js_nav-list1 li {
+    display: block;
   }
   body .js_nav-list1 li:hover {
     background-color: #463f3f;
@@ -228,6 +284,16 @@ body {
   }
   body .css_nav-list1 hr {
     display: none;
+  }
+  body .main-section {
+    width: initial !important;
+    /* border: #e705e7 1px solid; */
+    /* margin: 4px 10px; */
+    word-wrap: break-word;
+  }
+  body .code-area {
+    width: 80%;
+    margin-right: 15%;
   }
   body #main-doc {
     width: 100%;
