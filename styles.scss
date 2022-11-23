@@ -119,7 +119,7 @@ body {
         justify-content: center;
         width: 90%;
         height: fit-content;
-            
+
         border-radius: 8px;
         padding-bottom: 10px;
         padding-top: 10px;
@@ -187,30 +187,100 @@ body {
         }
 
 //---------------------------------------------------------
-        .navList_js {
+
+        #temp_nav{
+            display: none;
+            padding-left: 0%;
             background-color: rgb(25, 206, 238);
-            display: block;
             position: fixed;
-            top: 8.4%;
+            top: 8.92%;
             left: 4%;
             width: 49%;
             height: 49%;
             overflow-y: scroll;
             z-index: 2222;
             border: #fff 2px solid;
+            padding: 0px;
 
             li {
+                padding-bottom: 2px;
+            }
+
+            ul {
+                padding: 0%;
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            a {
                 display: block;
-                // color: aliceblue;
+                color: #f0f8ff;
+                font-size: 26px;
             }
 
             li:hover{
                 background-color: #463f3f;
+                color: #fff;
+                font-style: oblique;
                 border: #fff 2px solid;
             }
 
             .title {
+                display: none;
+            }
+            hr {
+                display: none;
+            }
+
+            .js_nav-list {
                 display: block;
+            }
+            .html_nav-list {
+                display: none;
+            }
+            .css_nav-list {
+                display: none;
+            }
+        }
+
+        .navList_js {
+            background-color: rgb(25, 206, 238);
+            display: block;
+            position: fixed;
+            top: 8.92%;
+            left: 4%;
+            width: 49%;
+            height: 49%;
+            overflow-y: scroll;
+            z-index: 2222;
+            border: #fff 2px solid;
+            padding: 0px;
+
+            li {
+                padding-bottom: 2px;
+            }
+
+            ul {
+                padding: 0%;
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            a {
+                display: block;
+                color: #f0f8ff;
+                font-size: 26px;
+            }
+
+            li:hover{
+                background-color: #463f3f;
+                color: #fff;
+                font-style: oblique;
+                border: #fff 2px solid;
+            }
+
+            .title {
+                display: none;
             }
             hr {
                 display: none;
