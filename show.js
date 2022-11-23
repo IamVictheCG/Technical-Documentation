@@ -27,14 +27,28 @@ function jsNav1(e) {
     <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li><hr>
     <li><a class="nav-link" href="#Reference">Reference</a></li><hr>    
     </ul>`
+    // temp_nav.classList.add('temp_nav')
+    temp_nav.classList.toggle('temp_nav')
+
+//     var clickCounter=0;
+//    window.onload = function(){
+//      clickCounter++;
+//      if (clickCounter==2) {
+//       window.alert("Hello");
+//      }
+//    }
 
 
-    let nav_link = document.getElementsByClassName("nav-link")
-    nav_link.addEventListener("click", ul)
+    // let nav_link = document.getElementsByClassName("nav-link")
+    // nav_link.addEventListener("click", ul)
     
-    function ul() {
-        temp_nav.style.display= "none"
-    }
+    // function ul() {
+    //     // temp_nav.id.toggle('temp_nav')
+    //     if (e.target.tagName === "LI") {
+    //         temp_nav.style.display= "none"
+    //         navBox
+    //     }
+    // }
 
 
     // temp_nav.id.toggle('temp_nav')
@@ -47,4 +61,5 @@ function jsNav1(e) {
     // if (i = 0, i<jsNav.length, i++) {       
     //     jsNav[i].style.display ='block'
     // }
+
 };

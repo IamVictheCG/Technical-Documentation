@@ -163,8 +163,7 @@ body {
   body #navList {
     display: none;
   }
-  body #temp_nav {
-    display: none;
+  body .temp_nav {
     padding-left: 0%;
     background-color: rgb(25, 206, 238);
     position: fixed;
@@ -177,38 +176,38 @@ body {
     border: #fff 2px solid;
     padding: 0px;
   }
-  body #temp_nav li {
+  body .temp_nav li {
     padding-bottom: 2px;
   }
-  body #temp_nav ul {
+  body .temp_nav ul {
     padding: 0%;
     list-style-type: none;
     padding-left: 0;
   }
-  body #temp_nav a {
+  body .temp_nav a {
     display: block;
     color: #f0f8ff;
     font-size: 26px;
   }
-  body #temp_nav li:hover {
+  body .temp_nav li:hover {
     background-color: #463f3f;
     color: #fff;
     font-style: oblique;
     border: #fff 2px solid;
   }
-  body #temp_nav .title {
+  body .temp_nav .title {
     display: none;
   }
-  body #temp_nav hr {
+  body .temp_nav hr {
     display: none;
   }
-  body #temp_nav .js_nav-list {
+  body .temp_nav .js_nav-list {
     display: block;
   }
-  body #temp_nav .html_nav-list {
+  body .temp_nav .html_nav-list {
     display: none;
   }
-  body #temp_nav .css_nav-list {
+  body .temp_nav .css_nav-list {
     display: none;
   }
   body .navList_js {
